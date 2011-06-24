@@ -1,8 +1,8 @@
 # Lincoln A. Mullen #
 
 
-lincoln@lincolnmullen.com  
-http://lincolnmullen.com  
+[lincoln@lincolnmullen.com](mailto:lincoln@lincolnmullen.com)  
+[http://lincolnmullen.com](http://lincolnmullen.com)  
 781-330-0171  
 
 MS 036 Brandeis University  
@@ -32,17 +32,17 @@ Research interests: American religious history, colonial America, early Republic
 
 ### Peer-reviewed conference proceedings ###
 
-"Confessionalization and the Creedal Tradition," _The Proceedings of the South Carolina Historical Association_ (March 2010): 79--90.
+"Confessionalization and the Creedal Tradition," _The Proceedings of the South Carolina Historical Association_ (March 2010): 79--90. [\[pdf\]](http://lincolnmullen.com/cv-docs/confessionalizationandthecreedaltradition.pdf)
 
 ### Book reviews ###
 
 Review of _Becoming American Jews: Temple Israel of Boston_ by Meaghan Dwyer-Ryan, Susan L. Porter, and Lisa Fagin Davis, _Historical Journal of Massachusetts_ (forthcoming).
 
-Review of _The Gardiners of Massachusetts: Provincial Ambition and the British-American Career_, by T. A. Milford, _Historical Journal of Massachusetts_ 39, nos. 1--2 (summer 2011), 265--66.
+Review of _The Gardiners of Massachusetts: Provincial Ambition and the British-American Career_, by T. A. Milford, _Historical Journal of Massachusetts_ 39, nos. 1--2 (summer 2011), 265--66. [\[pdf\]](http://lincolnmullen.com/cv-docs/gardinersofmassachusetts.pdf)
 
-Review of _Daily Lives of Civilians in Wartime Early America: From the Colonial Era to the Civil War_, edited by David S. Heidler and Jeanne T. Heidler, _Army History_ 78 (winter 2011), 44--45.
+Review of _Daily Lives of Civilians in Wartime Early America: From the Colonial Era to the Civil War_, edited by David S. Heidler and Jeanne T. Heidler, _Army History_ 78 (winter 2011), 44--45. [\[pdf\]](http://lincolnmullen.com/cv-docs/reviewdailylivesofcivilians.pdf)
 
-Review of _In the Beginning: Fundamentalism, the Scopes Trial, and the Making of the Antievolution Movement_, by Michael Lienesch, _The Southern Historian_ 30 (spring 2009), 103--5. 
+Review of _In the Beginning: Fundamentalism, the Scopes Trial, and the Making of the Antievolution Movement_, by Michael Lienesch, _The Southern Historian_ 30 (spring 2009), 103--5. [\[pdf\]](http://lincolnmullen.com/cv-docs/reviewinthebeginning.pdf)
 
 ### Encyclopedia articles ###
 
@@ -64,9 +64,9 @@ Review of _In the Beginning: Fundamentalism, the Scopes Trial, and the Making of
 
 ### Public Access Writing ###
 
-"Faith-based Tolerance" in _The Brandeis Hoot_, 3 December 2010. [\[web\]](http://thebrandeishoot.com/articles/9255) [\[pdf\]](http://lincolnmullen.com)
+"Faith-based Tolerance" in _The Brandeis Hoot_, 3 December 2010. [\[web\]](http://thebrandeishoot.com/articles/9255) [\[pdf\]](http://lincolnmullen.com/cv-docs/faithbasedtolerance.pdf)
 
-"Keeping Up with Journals" in _ProfHacker_, 26 January 2010.
+"Keeping Up with Journals" in _ProfHacker_ (_Chronicle of Higher Education_), 26 January 2010. [\[web\]](http://chronicle.com/blogs/profhacker/keeping-up-with-journals/22931) 
 
 ## Conferences ##
 
@@ -99,11 +99,11 @@ State and Society in Early Modern Europe, 1500--1700 (Govind Sreenivasan), sprin
 
 ## Open Access Projects ##
 
-**Religion in America**. Editor of and writer for a group blog about the history of American religion.
+**Religion in America**. Editor of and writer for a group blog about the history of American religion. [\[web\]](http://religioninamerica.org)
 
-**American Conversion**. Collections of primary sources related to the conversion experiences of Americans, from the colonial era through the nineteenth century.
+**American Conversion**. Collections of primary sources related to the conversion experiences of Americans, from the colonial era through the nineteenth century. [\[web\]](http://lincolnmullen.com/projects/american-conversion/)
 
-**The Backward Glance**. Academic blog about history and digital humanities.
+**The Backward Glance**. Academic blog about history and digital humanities. [\[web\]](http://lincolnmullen.com/blog/)
 
 ## Professional Service ##
 
@@ -115,20 +115,24 @@ Co-organizer, THATCamp New England 2010, held at Wentworth Institute of Technolo
  
 List editor, H-GRAD (2009--)
 
+
+
 ## Seminars ##
 
 "Congregations and Social Change: Adaptation and Innovation among Religious Communities," directed by Gerardo Marti, Calvin College, 27 June -- 22 July 2011
 
 ## Grants, Awards, and Recognitions ##
 
-Grant to attend Congregations and Social Change 
+Grant to attend Congregations and Social Change, Calvin College
 
 Rose and Irving Crown Fellowship, Brandeis University (2009--2014)
 
 Leila Custard Award for best senior history paper, Bob Jones University (2006)
 
-## Languages and Specialist Skills ##
 
+
+
+## Languages and Specialist Skills ##
 
 advanced reading knowledge of ancient Greek (Koine)
 
