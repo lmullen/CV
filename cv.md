@@ -1,3 +1,10 @@
+Title:				Curriculum Vitae  
+Author:				Lincoln Mullen  
+Affiliation:		Brandeis University  
+Date:				June 23, 2011  
+Base Header Level:	2
+
+
 # Lincoln A. Mullen #
 
 
@@ -66,7 +73,7 @@ Review of _In the Beginning: Fundamentalism, the Scopes Trial, and the Making of
 
 "Faith-based Tolerance" in _The Brandeis Hoot_, 3 December 2010. [\[web\]](http://thebrandeishoot.com/articles/9255) [\[pdf\]](http://lincolnmullen.com/cv-docs/faithbasedtolerance.pdf)
 
-"Keeping Up with Journals" in _ProfHacker_ (_Chronicle of Higher Education_), 26 January 2010. [\[web\]](http://chronicle.com/blogs/profhacker/keeping-up-with-journals/22931) 
+"Keeping Up with Journals" in _ProfHacker_ \(_Chronicle of Higher Education_\), 26 January 2010. [\[web\]](http://chronicle.com/blogs/profhacker/keeping-up-with-journals/22931) 
 
 ## Conferences ##
 
