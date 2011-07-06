@@ -27,6 +27,8 @@ General examinations passed, May 2011
 
 Research interests: American religious history, colonial America, early Republic
 
+### MA in history, Brandeis University, 2009-2011 ###
+
 ### MA in history, Bob Jones University, 2006--2008 ###
 
 ### BA in history, Bob Jones University, 2002--2006 ###
