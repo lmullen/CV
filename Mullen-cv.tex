@@ -28,6 +28,9 @@
 \geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
 \setlength\parindent{0in}
 
+% MULTICOL
+\usepackage{multicol}
+
 % FONTS
 \usepackage{xunicode}
 \usepackage{xltxtra}
@@ -53,23 +56,29 @@
 
 % PDF SETUP
 % ---- FILL IN HERE THE DOC TITLE AND AUTHOR
-\usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={Albert Einstein - vita},pdfauthor={My name}]{hyperref}  
+\usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={Lincoln Mullen - CV},pdfauthor={Lincoln Mullen}]{hyperref}  
 \hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=blue} 
 
 % DOCUMENT
 \begin{document}
-{\LARGE Albert Einstein}\\[1cm]
- Institute for Advanced Study\\
-Einstein Drive\\
-Princeton, N.J. \texttt{08540}
-U.S.A.\\[.2cm]
-Phone: \texttt{609-734-8000}\\
-Fax: \texttt{609-924-8399}\\[.2cm]
-email: \href{mailto:a.einstein@ias.edu}{a.einstein@ias.edu}\\
-\textsc{url}: \href{http://www.ias.edu/spfeatures/einstein/}{http://www.ias.edu/spfeatures/einstein/}\\ 
+{\LARGE Lincoln Mullen}\\[1cm]
+
+\begin{multicols}{2}
+Brandeis University\\
+MS 036 P.O. Box 549110\\
+Waltham, MA 02454-9110
+
+\columnbreak
+
+781-330-0171\\
+\href{mailto:lincoln@lincolnmullen.com}{lincoln@lincolnmullen.com}\\
+\href{http://lincolnmullen.com}{http://lincolnmullen.com}
+\end{multicols}
+
+
 \vfill
- Born:  March 12, 1879---Ulm, Germany\\
-Nationality:  German/American
+ % Born:  March 12, 1879---Ulm, Germany\\
+% Nationality:  German/American
 
 %%\hrule
 \section*{Current position}
