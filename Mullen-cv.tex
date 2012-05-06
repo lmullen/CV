@@ -16,12 +16,7 @@
 % Some rights reserved: http://creativecommons.org/licenses/by-sa/3.0/
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-%!TEX TS-program = xelatex
-%!TEX encoding = UTF-8 Unicode
-
 \documentclass[11pt]{article}
-\usepackage{fontspec} 
 \usepackage{microtype}
 \frenchspacing
 % DOCUMENT LAYOUT
@@ -29,21 +24,14 @@
 \geometry{textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
 \setlength\parindent{0in}
 
+\usepackage[osf,sc]{mathpazo}
+
 % MULTICOL
-\usepackage{multicol}
+\usepackage{multicol}                       % multiple columns
 
 % GRAPHICX
 \usepackage{graphicx}
 
-% FONTS
-\usepackage{xunicode}
-\usepackage{xltxtra}
-\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
-\setromanfont [Ligatures={Common},Numbers={OldStyle}]{Adobe Caslon Pro}
-\setmonofont[Scale=0.8]{Monaco} 
-\setsansfont[Scale=0.9]{Optima Regular} 
-% ---- CUSTOM AMPERSAND
-\newcommand{\amper}{{\fontspec[Scale=.95]{Adobe Caslon Pro}\selectfont\itshape\&}}
 % ---- MARGIN YEARS
 \usepackage{marginnote}
 \newcommand{\years}[1]{\marginnote{\scriptsize #1}}
@@ -61,7 +49,7 @@
 
 % PDF SETUP
 % ---- FILL IN HERE THE DOC TITLE AND AUTHOR
-\usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={Lincoln Mullen - CV},pdfauthor={Lincoln Mullen}]{hyperref}  
+\usepackage[bookmarks, colorlinks, breaklinks, pdftitle={Lincoln Mullen - CV},pdfauthor={Lincoln Mullen}]{hyperref}  
 \hypersetup{linkcolor=BrickRed,citecolor=BrickRed,filecolor=BrickRed,urlcolor=BrickRed} 
 \usepackage[usenames, dvipsnames]{xcolor}
 
@@ -118,7 +106,7 @@ Transcribed and edited manuscript, ``A Narration of the Troubles in the Second C
 
 \subsection*{Book reviews}
 \noindent
-\years{forthcoming}Review of \emph{Becoming American Jews: Temple Israel of Boston} by Meaghan Dwyer-Ryan, Susan L. Porter, and Lisa Fagin Davis, \emph{Historical Journal of Massachusetts} (forthcoming).\\
+%\years{forthcoming}Review of \emph{Becoming American Jews: Temple Israel of Boston} by Meaghan Dwyer-Ryan, Susan L. Porter, and Lisa Fagin Davis, \emph{Historical Journal of Massachusetts} (forthcoming).\\
 \years{forthcoming}Review of \emph{A Theology of Religious Change: What
 the Social Science of Conversion Means for the Gospel}, by David J.
 Zehnder, \emph{Journal of Markets and Morality}, forthcoming.\\
@@ -133,7 +121,7 @@ Religion}, 13 (2011),
 \subsection*{Encyclopedia articles}
 \noindent
 
-\years{2011}\hspace{-4pt}``James G. Birney Runs for President (1840 \amper{} 1844)'' in \emph{The Encyclopedia of American Reform Movements}, ed. John R. McKivigan and Heather L. Kaufman (Facts on File, forthcoming 2011).\\
+\years{2011}\hspace{-4pt}``James G. Birney Runs for President (1840 \& 1844)'' in \emph{The Encyclopedia of American Reform Movements}, ed. John R. McKivigan and Heather L. Kaufman (Facts on File, forthcoming 2011).\\
 \years{2010}\hspace{-4pt}``Alexander Hamilton,'' ``Fugitive Slave Acts,'' ``Domestic Slave Trade,'' and ``New England'' in \emph{The Encyclopedia of the Early Republic and Antebellum America}, ed. Christopher Bates (Armonk, NY: M. E. Sharpe, 2010).\\
 \years{2010}\hspace{-4pt}``New Harmony (1814--1830)'' in \emph{The Encyclopedia of American Immigration}, ed. Carl L. Bankston III (Pasadena, CA: Salem Press, 2010).\\
 \years{2009}\hspace{-4pt}``Salmon P. Chase'' in \emph{The Encyclopedia of U.S. Political History} (Washington, DC: CQ Press, 2009).\\
@@ -149,7 +137,7 @@ Religion}, 13 (2011),
 \years{2011-}Regular contributor to 
 \href{http://chronicle.com/blogs/profhacker/author/lmullen}{ProfHacker}, a \emph{Chronicle of Higher Education} blog
 
-\section*{Conference papers \amper{} talks}
+\section*{Conference papers \& talks}
 \noindent
 \years{2012}\hspace{-8pt}``\,`Six Days Shalt Thou Labor': Work, Sabbath Observance, and Cultural Conversion in John Eliot's Mission to the Indians,'' paper presented at the annual meeting of the American Society for Church History, January 7, 2012.\\
 \years{2012}Conference participant, THATCamp [The Humanities and Technology Camp] AHA 2012, American Historical Association, January 5, 2012.\\
@@ -196,7 +184,7 @@ The American Revolution
 \years {2010}Co-organizer, THATCamp New England 2010, held at Wentworth Institute of Technology, November 13--14, 2010\\
 \years{2009--2011}List editor, H-GRAD
 
-\section*{Seminars \amper{} workshops}
+\section*{Seminars \& workshops}
 \noindent
 \years{2011}\hspace{-4pt}``Congregations and Social Change: Adaptation and Innovation among Religious Communities,'' directed by Gerardo Marti, Calvin College, June 27--July 22, 2011.
 
@@ -206,6 +194,8 @@ The American Revolution
 \noindent
 \years{2012}Mellon Dissertation Research Grant, Brandeis University\\
 %\years{2012}Travels funds for ASCH, Brandeis University, Graduate School of Arts and Sciences\\
+
+\noindent
 \years{2011}Grant to attend ``Congregations and Social Change'' seminar, Calvin College\\
 %\years{2011}Travel funds for AHA/ASCH, Brandeis University, Graduate School of Arts and Sciences\\
 \years{2009--2014}Irving and Rose Crown Fellowship, Brandeis University\\
@@ -221,11 +211,11 @@ Brandeis University, Brown University, and other donors
 \years{2012}Outstanding Teaching Assistant Award, Brandeis University\\
 \years{2006}Leila Custard Award for best senior history paper, Bob Jones University
 
-\section*{Languages \amper{} specialist skills}
+\section*{Languages \& specialist skills}
 
 Advanced reading knowledge of ancient (Koine) Greek\\[.05cm]
 Computer languages and software: proficiencies in PHP, CSS, HTML, Git,
-\mbox{WordPress}, Jekyll, Omeka, \LaTeX{}, \XeLaTeX{}, Bash
+\mbox{WordPress}, Jekyll, Omeka, \LaTeX{}, Bash
 
 
 \section*{Academic memberships}
