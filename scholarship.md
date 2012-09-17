@@ -1,17 +1,17 @@
 # Publications
 
-## Edited documents
+## edited documents
 
 "Roger Wolcott's 'A Narrative of the Troubles in the Second Church in
 Windsor from the Year 1735 to the Year 1741,'" *Journal of Jonathan
 Edwards Studies*, forthcoming, October 2012.
 
-## Conference proceedings (peer-reviewed)
+## conference proceedings (peer-reviewed)
 
 "Confessionalization and the Creedal Tradition," *The Proceedings of the
 South Carolina Historical Association* (March 2010): 79--90.
 
-## Book reviews
+## book reviews
 
 Review of *A Theology of Religious Change: What the Social Science of
 Conversion Means for the Gospel*, by David J. Zehnder, *Journal of
@@ -33,7 +33,7 @@ Review of *In the Beginning: Fundamentalism, the Scopes Trial, and the
 Making of the Antievolution Movement*, by Michael Lienesch, *The
 Southern Historian* 30 (2009): 103--5.
 
-## Encyclopedia articles
+## encyclopedia articles
 
 "James G. Birney Runs for President (1840 & 1844)" in *The Encyclopedia
 of American Reform Movements*, ed. John R. McKivigan and Heather L.
@@ -101,11 +101,11 @@ Historical Association, March 2006.
 
 # Other writings and publications
 
-## Writings in service to the public
+## writings in service to the public
 
 "Faith-based Tolerance" in *The Brandeis Hoot*, December 3, 2010.
 
-## Writings in service to the profession
+## writings in service to the profession
 
 Regular contributor to ProfHacker, a *Chronicle of Higher Education*
 blog, <http://chronicle.com/blogs/profhacker/author/lmullen>.
