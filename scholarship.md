@@ -15,7 +15,7 @@ South Carolina Historical Association* (March 2010): 79--90.
 
 Review of *A Theology of Religious Change: What the Social Science of
 Conversion Means for the Gospel*, by David J. Zehnder, *Journal of
-Markets and Morality* 15, no. 1 (2012): 249--250. <http://www.marketsandmorality.com/index.php/mandm/article/view/696>.
+Markets and Morality* 15, no. 1 (2012): 249--250.
 
 Review of *Evangelism and Resistance in the Black Atlantic, 1760--1835*,
 by Cedrick May, *Journal of Southern Religion*, 13 (2011),

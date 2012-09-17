@@ -21,9 +21,10 @@
 \frenchspacing
 % DOCUMENT LAYOUT
 \usepackage{geometry} 
-\geometry{textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
+\geometry{textwidth=6.5in, textheight=9in}
+%\geometry{textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
 \setlength\parindent{0in}
-\setlength\parskip{6pt}
+\setlength\parskip{4pt}
 
 \usepackage[osf,sc]{mathpazo}
 
@@ -34,11 +35,11 @@
 \usepackage{graphicx}
 
 % ---- MARGIN YEARS
-\usepackage{marginnote}
-\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
-\renewcommand{\raggedleftmarginnote}{}
-\setlength{\marginparsep}{7pt}
-\reversemarginpar
+%\usepackage{marginnote}
+%\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+%\renewcommand{\raggedleftmarginnote}{}
+%\setlength{\marginparsep}{7pt}
+%\reversemarginpar
 
 
 % HEADINGS
@@ -55,8 +56,8 @@
 % PDF SETUP
 % ---- FILL IN HERE THE DOC TITLE AND AUTHOR
 \usepackage[bookmarks, colorlinks, breaklinks, pdftitle={Lincoln Mullen - CV},pdfauthor={Lincoln Mullen}]{hyperref}  
-\hypersetup{linkcolor=BrickRed,citecolor=BrickRed,filecolor=BrickRed,urlcolor=BrickRed} 
-\usepackage[usenames, dvipsnames]{xcolor}
+\hypersetup{linkcolor=black,citecolor=black,filecolor=black,urlcolor=black} 
+%\usepackage[usenames, dvipsnames]{xcolor}
 
 % use URL package for the parts converted from Markdown, but keep in 
 % same font
@@ -67,7 +68,7 @@
 % DOCUMENT
 \begin{document}
 {\LARGE Lincoln Mullen}\\
-\emph{curriculum vitae}\\[1cm]
+\emph{curriculum vitae}\\[0.5cm]
 
 Irving and Rose Crown fellow\\
 PhD candidate, American History
@@ -85,48 +86,58 @@ Waltham, MA 02453
 \end{multicols}
 
 
-\vfill
+\vskip 0.5cm
 
 
 %\hrule
 \section{Education}
-\noindent
-\years{2009--}PhD History, Brandeis University\\[.05cm]
-	Dissertation: ``The Varieties of American Conversion: The Origins of Religious Choice in the United States''\\
-	Committee:  Jonathan D. Sarna, Jane Kamensky, David Hackett Fischer\\
-	General examinations passed, May 2011\\[.2cm]
-\years{2011}MA History, Brandeis University\\
-\years{2008}MA History, Bob Jones University\\
-\years{2006}BA History, Bob Jones University
+PhD History, Brandeis University, 2009--
 
-\section{Scholarly interests}
-History of American religions\\
-History of colonial, revolutionary, and antebellum America\\
-Digital humanities and digital historical methods
+% indent this information about the dissertation
+\begingroup
+\leftskip20pt
+Dissertation: ``The Varieties of American Conversion: The Origins of 
+Religious Choice in the United States''\\[1pt]
+Committee:  Jonathan D. Sarna, Jane Kamensky, David Hackett 
+Fischer\\[1pt]
+General examinations passed, May 2011
+\par
+\endgroup
+
+MA History, Brandeis University, 2011\\
+MA History, Bob Jones University, 2008\\
+BA History, Bob Jones University, 2006
+
+%\section{Scholarly interests}
+%History of American religions\\
+%History of colonial, revolutionary, and antebellum America\\
+%Digital humanities and digital historical methods
 
 % input the list of publications converted from Markdown
 \input{scholarship.tex}
+
 \section{Teaching}
 
 \subsection{instructor, brandeis university}
 
-\years{2012, fall}Religious Pluralism and the American State
+Religious Pluralism and the American State, fall 2012
 
 \subsection{teaching fellow, brandeis university}
-\noindent
-\years{2012, spring}The Radical 1950s (David Engerman)\\
-\years{2011, fall}World War II (David Hackett Fischer)\\
-\years{2011, fall}East Asian Civilizations (Xing Hang)\\
-\years{2011, spring}State and Society in Early Modern Europe, 1500--1700
-(Govind Sreenivasan)\\
-\years{2010, fall}The American Revolution (co-taught with David Hackett Fischer and Craig Bruce Smith)
 
-\subsection{syllabi in development}
-\noindent
-History of American Religions\\
-World Religions During Imperialism and Decolonization\\
-American History to 1877\\
-The American Revolution
+The Radical 1950s (David Engerman)\\
+World War II (David Hackett Fischer)\\
+East Asian Civilizations (Xing Hang)\\
+State and Society in Early Modern Europe, 1500--1700
+(Govind Sreenivasan)\\
+The American Revolution (co-taught with David Hackett 
+Fischer and Craig Smith)
+
+%\subsection{syllabi in development}
+%\noindent
+%History of American Religions\\
+%World Religions During Imperialism and Decolonization\\
+%American History to 1877\\
+%The American Revolution
 
 %\section{Open-access projects}
 
@@ -136,61 +147,64 @@ The American Revolution
 
 
 \section{Service to the profession}
-\noindent
-\years{2012--}Co-convener, Religion Working Group, Brandeis University\\
-\years{2011--}Web editor, \emph{Journal of Southern Religion}, 
-\href{http://jsr.fsu.edu}{http://jsr.fsu.edu}\\
-\years{2011}Lead organizer, THATCamp New England 2011, held at Brandeis University, October 21--22, 2011\\
-\years{2010--}Teaching with Technology Committee, Brandeis University\\
-\years {2010}Co-organizer, THATCamp New England 2010, held at Wentworth Institute of Technology, November 13--14, 2010\\
-\years{2009--2011}List editor, H-GRAD
+
+Co-convener, Religion Working Group, Brandeis University, 
+2012--
+
+Web editor, \emph{Journal of Southern Religion}, 2011--
+
+Lead organizer, THATCamp New England 2011, held at Brandeis University, 
+October 21--22, 2011
+
+Teaching with Technology Committee, Brandeis University, 2010--
+
+Co-organizer, THATCamp New England 2010, held at Wentworth Institute of 
+Technology, November 13--14, 2010
+
+List editor, H-GRAD, 2009--2011
 
 \section{Seminars \& workshops}
-\noindent
-\years{2012}Public history seminar, directed by Martha A. Sandweiss and 
-Anthony Grafton, Princeton University, May 21--25, 2012.\\
-\years{2011}\hspace{-4pt}``Congregations and Social Change: Adaptation and Innovation among Religious Communities,'' directed by Gerardo Marti, Calvin College, June 27--July 22, 2011.
+Public history seminar, directed by Martha A. Sandweiss and 
+Anthony Grafton, Princeton University, May 21--25, 2012.
 
-\section{Grants}
+``Congregations and Social Change: Adaptation and Innovation among Religious Communities,'' directed by Gerardo Marti, Calvin College, June 27--July 22, 2011.
+
+\section{Grants \& awards}
 
 \subsection{research}
-\noindent
-\years{2012}Ruth B. Fein Prize, American Jewish Historical Society\\
-\years{2012}Mellon Dissertation Research Grant, Brandeis University\\
-%\years{2012}Travels funds for ASCH, Brandeis University, Graduate School of Arts and Sciences\\
-\years{2011}Grant to attend ``Congregations and Social Change'' seminar, Calvin College\\
-%\years{2011}Travel funds for AHA/ASCH, Brandeis University, Graduate School of Arts and Sciences\\
-\years{2009--2014}Irving and Rose Crown Fellowship, Brandeis University\\
+Ruth B. Fein Prize, American Jewish Historical Society, 2012\\
+Mellon Dissertation Research Grant, Brandeis University, 2012\\
+Grant to attend ``Congregations and Social Change'' seminar, Calvin 
+College, 2011\\
+Irving and Rose Crown Fellowship, Brandeis University, 2009--2014
 
 
 \subsection{fund raising}
 \noindent
-\years{2011}Raised \$15,500 for THATCamp New England from NERCOMP, 
-Brandeis University, Brown University, and other donors
+Raised \$15,500 for THATCamp New England from NERCOMP, Brandeis 
+University, Brown University, and other donors, 2011
 
-\section{Awards}
+\subsection{awards}
 \noindent
-\years{2012}Outstanding Teaching Assistant Award, Brandeis University\\
-\years{2006}Leila Custard Award for best senior history paper, Bob Jones University
+Outstanding Teaching Assistant, Brandeis University, Graduate School of 
+Arts and Sciences, 2012
+%\years{2006}Leila Custard Award for best senior history paper, Bob Jones University
 
 \section{Languages \& specialist skills}
 
-Advanced reading knowledge of ancient (Koine) Greek\\[.05cm]
+Advanced reading knowledge of ancient (Koine) Greek
+
 Computer languages and software: proficiencies in PHP, CSS, HTML, Git,
 \mbox{WordPress}, Jekyll, Omeka, \LaTeX{}, Bash, ZSH
 
 
 \section{Academic memberships}
-\noindent
-\years{2010--2011}American Association for History and Computing\\
-\years{2012--}American Catholic Historical Association\\
-\years{2009--}American Historical Association\\
-\years{2007--}American Society of Church History\\
-\years{2007--}Conference on Faith and History\\
-\years{2006--2009}South Carolina Historical Association
+American Catholic Historical Association, 2012--\\
+American Historical Association, 2009--\\
+American Society of Church History, 2007--\\
+Conference on Faith and History, 2007--\\
 
 \section{References}
-\noindent
 Academic references available upon request
 
 %\vspace{1cm}
