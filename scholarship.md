@@ -99,7 +99,7 @@ Christianity and American History conference, Liberty University, April
 Aquinas," paper presented at the annual meeting of the South Carolina
 Historical Association, March 2006.
 
-# Other writings and publications
+# Public and open-access writing
 
 ## writings in service to the public
 
@@ -108,7 +108,7 @@ Historical Association, March 2006.
 ## writings in service to the profession
 
 Regular contributor to ProfHacker, a *Chronicle of Higher Education*
-blog, <http://chronicle.com/blogs/profhacker/author/lmullen>.
+blog, <http://chronicle.com/blogs/profhacker/author/lmullen>
 
 Blog on history, religion, and digital humanities,
 <http://lincolnmullen.com>
