@@ -1,5 +1,5 @@
 Mullen-cv.pdf : Mullen-cv.tex scholarship.md
-	pandoc -i scholarship.md -o scholarship.tex
+	pandoc scholarship.md -o scholarship.tex
 	latexmk Mullen-cv.tex
 	latexmk -c 
 
