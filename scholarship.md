@@ -59,10 +59,13 @@ and Martin Hershock (Washington, DC: CQ Press, 2008).
 
 # Conference papers & talks
 
-"'Six Days Shalt Thou Labor': Work, Sabbath Observance, and Cultural
-Conversion in John Eliot's Mission to the Indians," paper presented at
-the annual meeting of the American Society for Church History, January
-7, 2012.
+"Does the Soul Have a History?" paper presented at the biennial meeting 
+of the Conference on Faith and History, Gordon College, October 5, 2012.
+
+"'Six Days Shalt Thou Labor': Work, Sabbath Observance, and Cultural 
+Conversion in John Eliot's Mission to the Indians," paper presented at 
+the annual meeting of the American Society for Church History, Chicago, 
+January 7, 2012.
 
 <!--
 Conference participant, THATCamp [The Humanities and Technology Camp]
