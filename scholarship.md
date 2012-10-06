@@ -1,12 +1,14 @@
 # Publications
 
-## edited documents
+## articles, book chapters, and conference proceedings
 
-"Roger Wolcott's 'A Narrative of the Troubles in the Second Church in
-Windsor from the Year 1735 to the Year 1741,'" *Journal of Jonathan
-Edwards Studies*, forthcoming, October 2012.
+"Digital Humanities Is a Spectrum; or, We're All Digital Humanists Now," 
+in Melissa Terras, Edward Vanhoutte, and Julianne Nyhan, eds., *Defining 
+Digital Humanities: A Reader* (Ashgate, forthcoming 2013).
 
-## conference proceedings (peer-reviewed)
+"A Narrative of the Troubles in the Second Church in
+Windsor, 1735--1741 [Part 1]," by Roger Wolcott, *Journal of Jonathan
+Edwards Studies* 2, no. 2 (2012): 83--142.
 
 "Confessionalization and the Creedal Tradition," *The Proceedings of the
 South Carolina Historical Association* (March 2010): 79--90.
@@ -18,7 +20,7 @@ Conversion Means for the Gospel*, by David J. Zehnder, *Journal of
 Markets and Morality* 15, no. 1 (2012): 249--250.
 
 Review of *Evangelism and Resistance in the Black Atlantic, 1760--1835*,
-by Cedrick May, *Journal of Southern Religion*, 13 (2011),
+by Cedrick May, *Journal of Southern Religion*, 13 (2011): 
 <http://jsr.fsu.edu/issues/vol13/mullen.html>.
 
 Review of *The Gardiners of Massachusetts: Provincial Ambition and the
@@ -102,13 +104,9 @@ Christianity and American History conference, Liberty University, April
 Aquinas," paper presented at the annual meeting of the South Carolina
 Historical Association, March 2006.
 
-# Public and open-access writing
-
-## writings in service to the public
+# Writings in service to the public and profession
 
 "Faith-based Tolerance" in *The Brandeis Hoot*, December 3, 2010.
-
-## writings in service to the profession
 
 Regular contributor to ProfHacker, a *Chronicle of Higher Education*
 blog, <http://chronicle.com/blogs/profhacker/author/lmullen>
