@@ -61,6 +61,10 @@ and Martin Hershock (Washington, DC: CQ Press, 2008).
 
 # Conference papers & talks
 
+"The Humanist's Operating System; or, Scholarship in Plain Text," 
+workshop presented at THATCamp New England 2012, Brown University, 
+October 20, 2012.
+
 "Does the Soul Have a History?" paper presented at the biennial meeting 
 of the Conference on Faith and History, Gordon College, October 5, 2012.
 
