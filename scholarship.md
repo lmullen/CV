@@ -2,13 +2,13 @@
 
 ## articles, book chapters, and conference proceedings
 
-"Digital Humanities Is a Spectrum; or, We're All Digital Humanists Now," 
-in Melissa Terras, Edward Vanhoutte, and Julianne Nyhan, eds., *Defining 
+"Digital Humanities Is a Spectrum; or, We're All Digital Humanists Now,"
+in Melissa Terras, Edward Vanhoutte, and Julianne Nyhan, eds., *Defining
 Digital Humanities: A Reader* (Ashgate, forthcoming 2013).
 
-"A Narrative of the Troubles in the Second Church in
-Windsor, 1735--1741 [Part 1]," by Roger Wolcott, *Journal of Jonathan
-Edwards Studies* 2, no. 2 (2012): 83--142.
+"A Narrative of the Troubles in the Second Church in Windsor, 1735--1741
+[Part 1]," by Roger Wolcott, *Journal of Jonathan Edwards Studies* 2,
+no. 2 (2012): 83--142.
 
 "Confessionalization and the Creedal Tradition," *The Proceedings of the
 South Carolina Historical Association* (March 2010): 79--90.
@@ -20,7 +20,7 @@ Conversion Means for the Gospel*, by David J. Zehnder, *Journal of
 Markets and Morality* 15, no. 1 (2012): 249--250.
 
 Review of *Evangelism and Resistance in the Black Atlantic, 1760--1835*,
-by Cedrick May, *Journal of Southern Religion*, 13 (2011): 
+by Cedrick May, *Journal of Southern Religion*, 13 (2011):
 <http://jsr.fsu.edu/issues/vol13/mullen.html>.
 
 Review of *The Gardiners of Massachusetts: Provincial Ambition and the
@@ -61,20 +61,29 @@ and Martin Hershock (Washington, DC: CQ Press, 2008).
 
 # Conference papers & talks
 
-"Catholic Converts in the Nineteenth-century Market of Souls," paper 
-presented at the annual meeting of the American Catholic Historical 
+"Returning to the Fold: Nineteenth Century Converts Who Returned to
+Their Original Faith," paper presented at Kronstadt Moment/Road to
+Damascus, New School for Social Research, New York, April 26--27, 2013.
+
+"The American Converts Database and the Monographic Dissertation," talk
+for the panel "Digital Methods and the Traditional Dissertation," given
+at Digital Humanities: The Next Generation, Simmons College, Boston,
+March 15, 2013.
+
+"Catholic Converts in the Nineteenth-century Market of Souls," paper
+presented at the annual meeting of the American Catholic Historical
 Association, New Orleans, January 4, 2013.
 
-"The Humanist's Operating System; or, Scholarship in Plain Text," 
-workshop presented at THATCamp New England 2012, Brown University, 
+"The Humanist's Operating System; or, Scholarship in Plain Text,"
+workshop presented at THATCamp New England 2012, Brown University,
 October 20, 2012.
 
-"Does the Soul Have a History?" paper presented at the biennial meeting 
+"Does the Soul Have a History?" paper presented at the biennial meeting
 of the Conference on Faith and History, Gordon College, October 5, 2012.
 
-"'Six Days Shalt Thou Labor': Work, Sabbath Observance, and Cultural 
-Conversion in John Eliot's Mission to the Indians," paper presented at 
-the annual meeting of the American Society for Church History, Chicago, 
+"'Six Days Shalt Thou Labor': Work, Sabbath Observance, and Cultural
+Conversion in John Eliot's Mission to the Indians," paper presented at
+the annual meeting of the American Society for Church History, Chicago,
 January 7, 2012.
 
 <!--
