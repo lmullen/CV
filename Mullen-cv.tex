@@ -1,38 +1,18 @@
-% HEADER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% This document by
-%	Lincoln Mullen 
-%	lincoln@lincolnmullen.com
-%	http://lincolnmullen.com
-% (c) Copyright 2011 Lincoln Mullen. All Rights Reserved. 
-% 
-% Formatting borrowed from:
-% Dario Taraborelli
-% Typesetting your academic CV in LaTeX
-%
-% URL: http://nitens.org/taraborelli/cvtex
-% DISCLAIMER: This template is provided for free and without any guarantee 
-% that it will correctly compile on your system if you have a non-standard  
-% configuration.
-% Some rights reserved: http://creativecommons.org/licenses/by-sa/3.0/
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Curriculum vitae
+
+% Lincoln A. Mullen | lincoln@lincolnmullen.com | http://lincolnmullen.com
 
 \documentclass[11pt]{article}
 \usepackage{microtype}
 \frenchspacing
-% DOCUMENT LAYOUT
 \usepackage{geometry} 
 \geometry{textwidth=6in, textheight=8.5in}
-%\geometry{textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
 \setlength\parindent{0in}
 \setlength\parskip{4pt}
-
 \usepackage[osf,sc]{mathpazo}
-
-% MULTICOL
 \usepackage{multicol}
-
-% GRAPHICX
 \usepackage{graphicx}
+\usepackage[usenames,dvipsnames]{color}
 
 % ---- MARGIN YEARS
 %\usepackage{marginnote}
@@ -41,23 +21,24 @@
 %\setlength{\marginparsep}{7pt}
 %\reversemarginpar
 
-
 % HEADINGS
 \usepackage{sectsty} 
+\usepackage{titlesec}
 \usepackage[normalem]{ulem} 
 \sectionfont{\rmfamily\mdseries\Large} 
 \subsectionfont{\rmfamily\mdseries\scshape\normalsize} 
 \subsubsectionfont{\rmfamily\bfseries\upshape\normalsize} 
-
+\titlespacing\section{0pt}{16pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
 % disables chapter, section and subsection numbering
 \setcounter{secnumdepth}{-1} 
-
 
 % PDF SETUP
 % ---- FILL IN HERE THE DOC TITLE AND AUTHOR
 \usepackage[bookmarks, colorlinks, breaklinks, pdftitle={Lincoln A. 
 Mullen - CV},pdfauthor={Lincoln A. Mullen}]{hyperref}  
-\hypersetup{linkcolor=black,citecolor=black,filecolor=black,urlcolor=black} 
+\hypersetup{linkcolor=BrickRed,citecolor=black,filecolor=black,urlcolor=BrickRed} 
 %\usepackage[usenames, dvipsnames]{xcolor}
 
 % use URL package for the parts converted from Markdown, but keep in 
@@ -105,8 +86,18 @@ General examinations passed, May 2011
 \par
 \endgroup
 
-MA History, Brandeis University, 2011\\
-MA History, Bob Jones University, 2008\\
+MA History, Brandeis University, 2011
+
+MA History, Bob Jones University, 2008
+
+% indent this information about the thesis
+\begingroup
+\leftskip20pt
+Thesis: ``Debating the Hartford Convention: Newspaper Politics, Political 
+Opposition, and the Paranoid Style''
+\par
+\endgroup
+
 BA History, Bob Jones University, 2006
 
 %\section{Scholarly interests}
@@ -117,7 +108,7 @@ BA History, Bob Jones University, 2006
 % input the list of publications converted from Markdown
 \input{scholarship.tex}
 
-\section{Digital projects}
+\section{Digital Projects}
 
 Principal investigator with Erin Bartram, \emph{The American Converts 
 Database}, a database of converts and conversions in American history, 
@@ -126,35 +117,33 @@ Database}, a database of converts and conversions in American history,
 \section{Teaching}
 
 \subsection{instructor, brandeis university}
-\noindent
+
 Nineteenth-Century American Religion: A Digital History Seminar, 
-scheduled spring 2014\\
+scheduled spring 2014
+
 Religious Pluralism and the American State, fall 2012
 
 \subsection{teaching fellow, brandeis university}
 
-The Radical 1950s (David Engerman)\\
-World War II (David Hackett Fischer)\\
-East Asian Civilizations (Xing Hang)\\
+The American Revolution (David Hackett Fischer), fall 2013
+
+The Radical 1950s (David Engerman), spring 2012
+
+World War II (David Hackett Fischer), fall 2011
+
+East Asian Civilizations (Xing Hang), fall 2011
+
 State and Society in Early Modern Europe, 1500--1700
-(Govind Sreenivasan)\\
-The American Revolution (co-taught with David Hackett 
-Fischer and Craig Smith)
+(Govind Sreenivasan), spring 2011
 
-%\subsection{syllabi in development}
-%\noindent
-%History of American Religions\\
-%World Religions During Imperialism and Decolonization\\
-%American History to 1877\\
-%The American Revolution
+The American Revolution (David Hackett Fischer), fall 2010
 
+\section{Service}
 
-\section{Service to the profession}
+Web editor, \emph{Journal of Southern Religion}, 2011--
 
 Co-convener, Religion Working Group, Brandeis University, 
 2012--13
-
-Web editor, \emph{Journal of Southern Religion}, 2011--
 
 Co-organizer, THATCamp New England 2012, held at Brown University,
 October 19--20, 2012
@@ -169,7 +158,8 @@ Technology, November 13--14, 2010
 
 List editor, H-GRAD, 2009--2011
 
-\section{Seminars \& workshops}
+\section{Seminars \& Workshops}
+
 Public history seminar, directed by Martha A. Sandweiss and 
 Anthony Grafton, Princeton University, May 21--25, 2012.
 
@@ -177,47 +167,72 @@ Anthony Grafton, Princeton University, May 21--25, 2012.
 Religious Communities,'' directed by Gerardo Marti, Calvin College, June 
 27--July 22, 2011.
 
-\section{Grants}
+\section{Grants and Awards}
 
 \subsection{research grants}
-\noindent
-Ruth B. Fein Prize, American Jewish Historical Society, 2012\\
-Mellon Dissertation Research Grant, Brandeis University, 2012\\
+
+Kate B. and Hall J. Peterson Fellowship, American Antiquarian Society, 2013
+
+Ruth B. Fein Prize, American Jewish Historical Society, 2012
+
+Mellon Dissertation Research Grant, Brandeis University, 2012
+
 Grant to attend ``Congregations and Social Change'' seminar, Calvin 
-College, 2011\\
+College, 2011
+
 Irving and Rose Crown Fellowship, Brandeis University, 2009--2014
 
 \subsection{teaching grants}
-\noindent
+
 University Prize Instructorship, Brandeis University, 2013
 
+Outstanding Teaching Assistant, Brandeis University, Graduate School of 
+Arts and Sciences, 2012
+
 \subsection{fund raising}
-\noindent
+
 Raised \$15,500 for THATCamp New England from NERCOMP, Brandeis 
 University, Brown University, and other donors, 2011
 
-\section{Awards}
-\noindent
-Outstanding Teaching Assistant, Brandeis University, Graduate School of 
-Arts and Sciences, 2012
-%\years{2006}Leila Custard Award for best senior history paper, Bob Jones University
-
-\section{Languages \& specialist skills}
+\section{Human and Computer Languages}
 
 Advanced reading knowledge of ancient (Koine) Greek
 
-Computer languages and software: proficiencies in Ruby, PHP, CSS, HTML, Git,
-\mbox{WordPress}, Jekyll, Omeka, \LaTeX{}, Bash, ZSH
+Data analysis: R (programming language), QGIS
 
+Programming languages: Ruby, PHP
 
-\section{Academic memberships}
-American Catholic Historical Association, 2012--\\
-American Historical Association, 2009--\\
-American Society of Church History, 2007--\\
-Conference on Faith and History, 2007--
+Other technologies: Omeka, Jekll, \LaTeX{}, \mbox{WordPress}, shell scripting, 
+Git, HTML, CSS
+
+Open-source software contributions available at 
+\href{http://github.com/lmullen}{http://github.com/lmullen}
+
+\section{Academic Memberships}
+
+American Academy of Religion
+
+American Catholic Historical Association
+
+American Historical Association
+
+American Society of Church History
+
+Conference on Faith and History
 
 \section{References}
-Academic references available upon request
+
+Professor Jonathan D. Sarna, Brandeis University,
+\href{mailto:sarna@brandeis.edu}{sarna@brandeis.edu}
+
+Professor Jane Kamensky, Brandeis University, 
+\href{mailto:kamensky@brandeis.edu}{kamensky@brandeis.edu}
+
+Professor David Hackett Fischer, Brandeis University, 
+\href{mailto:fischer@brandeis.edu}{fischer@brandeis.edu}
+
+Professor Sharon M. Leon, George Mason University,
+\href{mailto:sleon@gmu.edu}{sleon@gmu.edu}
 
 %\vspace{1cm}
 \vfill{}
@@ -225,11 +240,10 @@ Academic references available upon request
 
 \begin{center}
 {\scriptsize 
-% Last updated: \today\\[.25cm]
+Last updated: \today\\[.25cm]
 Full text of publications:\\
 \href{http://lincolnmullen.com/cv/}{http://lincolnmullen.com/cv/}\\[.1cm]
 }
-%\includegraphics[keepaspectratio=true,width=1in]{qrcode.png}
 \end{center}
 
 \end{document}
