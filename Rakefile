@@ -11,3 +11,6 @@ task :clean do
   sh "latexmk -c"
 end
 
+task :push do
+  sh "s3cmd put Mullen-cv.pdf s3://lincolnmullen.com/downloads/docs/"
+end
