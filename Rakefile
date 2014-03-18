@@ -13,5 +13,5 @@ end
 
 task :push do
   # sh "s3cmd put Mullen-cv.pdf s3://lincolnmullen.com/downloads/docs/"
-  system "scp Mullen-cv.pdf reclaim:~/public_html/lincolnmullen.com/downloads/docs/"
+  system %[scp Mullen-cv.pdf reclaim:~/public_html/lincolnmullen.com/files/]
 end
