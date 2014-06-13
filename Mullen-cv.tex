@@ -5,21 +5,26 @@
 \documentclass[11pt]{article}
 \usepackage{microtype}
 \frenchspacing
-\usepackage{geometry} 
-\geometry{textwidth=6in, textheight=8.5in}
+\usepackage[letterpaper,margin=1in]{geometry} 
 \setlength\parindent{0in}
-\setlength\parskip{4pt}
+\setlength\parskip{6pt}
+\setlength{\emergencystretch}{3em}
+% \def\ind{\hangindent=1 true cm\hangafter=1 \noindent}
 \usepackage[osf,sc]{mathpazo}
-\usepackage{multicol}
-\usepackage{graphicx}
-\usepackage[usenames,dvipsnames]{color}
+\usepackage{inconsolata}
+\usepackage{fancyhdr}
+\pagestyle{plain}
+\frenchspacing
+% \usepackage{multicol}
+% \usepackage{graphicx}
+% \usepackage[usenames,dvipsnames]{color}
 
-% ---- MARGIN YEARS
-%\usepackage{marginnote}
-%\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
-%\renewcommand{\raggedleftmarginnote}{}
-%\setlength{\marginparsep}{7pt}
-%\reversemarginpar
+% % ---- MARGIN YEARS
+% \usepackage{marginnote}
+% \newcommand{\years}[1]{\marginnote{#1}[4pt]}
+% \renewcommand{\raggedleftmarginnote}{}
+% \setlength{\marginparsep}{2pt}
+% \reversemarginpar
 
 % HEADINGS
 \usepackage{sectsty} 
@@ -35,376 +40,408 @@
 \setcounter{secnumdepth}{-1} 
 
 % PDF SETUP
-% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
-\usepackage[bookmarks, colorlinks, breaklinks, pdftitle={Lincoln A. 
-Mullen - CV},pdfauthor={Lincoln A. Mullen}]{hyperref}  
-\hypersetup{linkcolor=BrickRed,citecolor=black,filecolor=black,urlcolor=BrickRed} 
-%\usepackage[usenames, dvipsnames]{xcolor}
-
-% use URL package for the parts converted from Markdown, but keep in 
-% same font
-\usepackage{url}
-\urlstyle{same}
-
+\PassOptionsToPackage{hyphens}{url}\usepackage[hidelinks, breaklinks, pdftex, pdftitle={Lincoln A.  Mullen - CV}, pdfauthor={Lincoln A. Mullen}]{hyperref}  
 
 % DOCUMENT
 \begin{document}
-{\LARGE Lincoln A. Mullen}\\
+\thispagestyle{fancy}
+\fancyfoot{}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+%%% The next line will put the date revised in footer of first page
+\rfoot{\scriptsize Current as of \today}
+
+\hfill\hfill\hfill
+\hfill\hfill\hfill
+\hfill\hfill\hfill
+\hfill\hfill\hfill
+\begin{minipage}[t]{1.4in}
+  \flushleft{\scriptsize  \texttt{\href{mailto:lincoln@lincolnmullen.com}{lincoln@lincolnmullen.com}}} \\
+  \vspace{-0.075in}{\scriptsize  \url{http://lincolnmullen.com}}\\
+  \scriptsize Phone: 781-330-0171 
+\end{minipage}
+\hfill
+\begin{minipage}[t]{1.9in}
+ \flushleft {\scriptsize {Department of History \& Art History} \\ George 
+   Mason University \\ 4400 University Drive, MSN 3G1 \\ \vspace{-0.05in} 
+   Fairfax, VA 22030}  
+\end{minipage}
+
+\vskip 0.5in
+
+{\Large Lincoln A. Mullen}\\
 \emph{curriculum vitae}\\[0.5cm]
 
-Irving and Rose Crown fellow\\
-PhD candidate, American History
+\vskip 0.05in
 
-\begin{multicols}{2}
-  Department of History MS 036\\
-  Brandeis University\\
-  Waltham, MA 02453
+\section{Appointment}
+\subsection{george mason university}
 
-  \columnbreak
+Assistant Professor, Department of History and Art History (2014--present)
 
-  781-330-0171\\
-  \href{mailto:lincoln@lincolnmullen.com}{lincoln@lincolnmullen.com}\\
-  \href{http://lincolnmullen.com}{http://lincolnmullen.com}
-\end{multicols}
-
-
-\vskip 0.5cm
-
-
-%\hrule
 \section{Education}
-PhD History, Brandeis University, 2009--
+PhD History, Brandeis University (expected August 2014)
 
 % indent this information about the dissertation
 \begingroup
-\leftskip20pt
-Dissertation: ``The Varieties of American Conversion: The Origins of 
-Religious Choice in the United States''\\[1pt]
-Committee:  Jonathan D. Sarna, Jane Kamensky, David Hackett 
-Fischer\\[1pt]
-General examinations, May 2011
-\par
-\endgroup
+  \leftskip20pt
+    Dissertation: ``The Varieties of American Conversion: The Origins of 
+    Religious Choice in the United States''
+    \par
+  \endgroup
 
-MA History, Brandeis University, 2011
+  MA History, Brandeis University (2011)
 
-MA History, Bob Jones University, 2008
+  MA History, Bob Jones University (2008)
 
-% indent this information about the thesis
-\begingroup
-\leftskip20pt
-Thesis: ``Debating the Hartford Convention: Newspaper Politics, Political 
-Opposition, and the Paranoid Style''
-\par
-\endgroup
+  BA History, Bob Jones University (2006)
 
-BA History, Bob Jones University, 2006
+  \section{Publications}
 
-%\section{Scholarly interests}
-%History of American religions\\
-%History of colonial, revolutionary, and antebellum America\\
-%Digital humanities and digital historical methods
+  \subsection{articles (peer reviewed)}
 
-\section{Publications}
+  ``The Contours of Conversion to Catholicism in the Nineteenth Century,'' 
+  \emph{U.S.  Catholic Historian} 32, no. 2 (2014). In press.
 
-\subsection{articles, book chapters, and conference proceedings}
+  ``Using Metadata and Maps to Teach the History of Religion,'' 
+  \emph{Transformations}, 24, no. 3 (2014): 34--40. In press.
 
-``Catholic Converts in the Nineteenth-Century Market for Souls,'' \emph{U.S.  
-Catholic Historian}, commissioned for special issue ``Catholicism and 
-Conversion,'' forthcoming spring 2014.
+  ``Confessionalization and the Creedal Tradition,'' \emph{The Proceedings
+    of the South Carolina Historical Association} (March 2010): 79--90.
 
-``Digital Humanities Is a Spectrum; or, We're All Digital Humanists
-Now,'' in Melissa Terras, Edward Vanhoutte, and Julianne Nyhan, eds.,
-\emph{Defining Digital Humanities: A Reader} (Ashgate, 2013).
+  \subsection{edited sources}
 
-``A Narrative of the Troubles in the Second Church in Windsor,
-1735--1741 {[}Part 1{]},'' \emph{Journal of Jonathan Edwards Studies} 2,
-no. 2 (2012): 83--142. Part 2 forthcoming.
+  ``A Narrative of the Troubles in the Second Church in Windsor,
+  1735--1741 {[}Part 1{]},'' \emph{Journal of Jonathan Edwards Studies} 2,
+  no. 2 (2012): 83--142. Part 2 forthcoming.
 
-``Confessionalization and the Creedal Tradition,'' \emph{The Proceedings
-of the South Carolina Historical Association} (March 2010): 79--90.
+  \subsection{book chapter}
 
-\subsection{selected online essays}
+  ``Digital Humanities Is a Spectrum; or, We're All Digital Humanists
+  Now,'' in Melissa Terras, Edward Vanhoutte, and Julianne Nyhan, eds.,
+  \emph{Defining Digital Humanities: A Reader} (Ashgate, 2013).
 
-``Quantifying the American Tract Society: Using Library Catalog Data for 
-Historical Research,'' \emph{Religion in American History} (blog), August 1, 
-2013. Republished as an Editors' Choice, \emph{Digital Humanities 
-Now}. \href{http://usreligion.blogspot.com/2013/08/quantifying-american-tract-society.html}{http://usreligion.blogspot.com/2013/08/quantifying-american-tract-society.html}
 
-``Where Are the Histories of American Irreligion?'' \emph{Religion in
-American History} (blog), June 1,
-2013. \href{http://usreligion.blogspot.com/2013/06/where-are-histories-of-american.html}{http://usreligion.blogspot.com/2013/06/where-are-histories-of-american.html}
+  \subsection{selected online essays}
 
-\subsection{book reviews}
+  ``These Maps Reveal How Slavery Expanded Across the United States,'' 
+  \emph{Smithsonian.com}, May 15, 2014. Republished as an Editors'
+  Choice, \emph{Digital Humanities Now}. \url{http://www.smithsonianmag.com/history/maps-reveal-slavery-expanded-across-united-states-180951452/}
 
-Review of \emph{Teaching History in the Digital Age}, by T. Mills Kelly, 
-\emph{ProfHacker} (blog), \emph{Chronicle of Higher Education}, August 26, 
-2013. 
-\href{http://chronicle.com/blogs/profhacker/learning-how-to-teach-history-in-a-digital-age/51875}{http://chronicle.com/blogs/profhacker/learning-how-to-teach-history-in-a-digital-age/51875}
+  ``The Return of the \emph{Longue Durée} in American Religious History,'' 
+  \emph{Religion in American History}, March 1, 2014. \url{http://usreligion.blogspot.com/2014/03/the-return-of-longue-duree-in-american.html}
 
-Review of \emph{Chosen People: The Rise of American Black Israelite 
-Religions}, by Jacob S. Dorman, \emph{Religion in American History} (blog), 
-May 1, 2013.  
-\href{http://usreligion.blogspot.com/2013/05/jacob-dorman-on-rise-of-black-israelite.html}{http://usreligion.blogspot.com/2013/05/jacob-dorman-on-rise-of-black-israelite.html} 
+  ``Historical Religion Data in the NHGIS and What You Can Do with It,'' 
+  \emph{Religion in American History}, October 1, 2014.  
+  \url{http://usreligion.blogspot.com/2013/10/historical-religion-data-in-nhgis-and.html}
 
-Review of \emph{The Science of the Soul in Colonial New England}, by Sarah 
-Rivett, \emph{Religion in American History} (blog), December 17, 2012. 
-\href{http://usreligion.blogspot.com/2012/12/the-science-of-soul-in-colonial-new.html}{http://usreligion.blogspot.com/2012/12/the-science-of-soul-in-colonial-new.html}
+  ``Quantifying the American Tract Society: Using Library Catalog Data for 
+  Historical Research,'' \emph{Religion in American History}, August 1, 
+  2013. Republished as an Editors' Choice, \emph{Digital Humanities Now}. 
+  \url{http://usreligion.blogspot.com/2013/08/quantifying-american-tract-society.html}
 
-Review of \emph{A Theology of Religious Change: What the Social Science
-of Conversion Means for the Gospel}, by David J. Zehnder, \emph{Journal
-of Markets and Morality} 15, no. 1 (2012): 249--250.
+  ``Where Are the Histories of American Irreligion?'' \emph{Religion in 
+    American History}, June 1, 2013. 
+  \url{http://usreligion.blogspot.com/2013/06/where-are-histories-of-american.html}
 
-Review of \emph{Evangelism and Resistance in the Black Atlantic,
-1760--1835}, by Cedrick May, \emph{Journal of Southern Religion}, 13
-(2011): \url{http://jsr.fsu.edu/issues/vol13/mullen.html}.
+  \subsection{book reviews}
 
-Review of \emph{The Gardiners of Massachusetts: Provincial Ambition and
-the British-American Career}, by T. A. Milford, \emph{Historical Journal of
-Massachusetts} 39, nos. 1--2 (2011): 265--66.
+  Review of \emph{By the Rivers of Water: A Nineteenth-Century Atlantic 
+    Odyssey}, by Erskine Clarke, \emph{Religion in American History}, December 
+  1, 2013. 
+  \url{http://usreligion.blogspot.com/2013/12/from-rivers-of-water-to-river-of-dark.html}
 
-Review of \emph{Daily Lives of Civilians in Wartime Early America: From
-the Colonial Era to the Civil War}, edited by David S. Heidler and
-Jeanne T. Heidler, \emph{Army History} 78 (2011): 44--45.
+  Review of \emph{Teaching History in the Digital Age}, by T. Mills Kelly, 
+  \emph{ProfHacker}, \emph{Chronicle of Higher Education}, August 26, 
+  2013. 
+  \url{http://chronicle.com/blogs/profhacker/learning-how-to-teach-history-in-a-digital-age/51875}
 
-Review of \emph{In the Beginning: Fundamentalism, the Scopes Trial, and
-the Making of the Antievolution Movement}, by Michael Lienesch,
-\emph{The Southern Historian} 30 (2009): 103--5.
+  Review of \emph{Chosen People: The Rise of American Black Israelite 
+    Religions}, by Jacob S. Dorman, \emph{Religion in American History},
+  May 1, 2013.  
+  \url{http://usreligion.blogspot.com/2013/05/jacob-dorman-on-rise-of-black-israelite.html} 
 
-\subsection{encyclopedia articles}
+  Review of \emph{The Science of the Soul in Colonial New England}, by Sarah 
+  Rivett, \emph{Religion in American History}, December 17, 2012. 
+  \url{http://usreligion.blogspot.com/2012/12/the-science-of-soul-in-colonial-new.html}
 
-``Conversion'' and ``Sarah Osborne,'' in \emph{A Jonathan Edwards 
-Encyclopedia}, ed. Harry S. Stout, Kenneth Minkema, and Adriaan Neele (William 
-B. Eerdmans, forthcoming).
+  Review of \emph{A Theology of Religious Change: What the Social Science
+    of Conversion Means for the Gospel}, by David J. Zehnder, \emph{Journal
+    of Markets and Morality} 15, no. 1 (2012): 249--250.
 
-``James G. Birney Runs for President (1840 \& 1844)'' in \emph{The
-Encyclopedia of American Reform Movements}, ed. John R. McKivigan and
-Heather L. Kaufman (Facts on File, 2012).
+  Review of \emph{Evangelism and Resistance in the Black Atlantic,
+    1760--1835}, by Cedrick May, \emph{Journal of Southern Religion}, 13
+  (2011): \url{http://jsr.fsu.edu/issues/vol13/mullen.html}.
 
-``Alexander Hamilton,'' ``Fugitive Slave Acts,'' ``Domestic Slave
-Trade,'' and ``New England'' in \emph{The Encyclopedia of the Early
-Republic and Antebellum America}, ed. Christopher Bates (Armonk, NY: M.
-E. Sharpe, 2010).
+  Review of \emph{The Gardiners of Massachusetts: Provincial Ambition and
+    the British-American Career}, by T. A. Milford, \emph{Historical Journal of
+    Massachusetts} 39, nos. 1--2 (2011): 265--66.
 
-``New Harmony (1814--1830)'' in \emph{The Encyclopedia of American
-Immigration}, ed. Carl L. Bankston III (Pasadena, CA: Salem Press,
-2010).
+  Review of \emph{Daily Lives of Civilians in Wartime Early America: From
+    the Colonial Era to the Civil War}, edited by David S. Heidler and
+  Jeanne T. Heidler, \emph{Army History} 78 (2011): 44--45.
 
-``Salmon P. Chase'' in \emph{The Encyclopedia of U.S. Political History}
-(Washington, DC: CQ Press, 2009).
+  Review of \emph{In the Beginning: Fundamentalism, the Scopes Trial, and
+    the Making of the Antievolution Movement}, by Michael Lienesch,
+  \emph{The Southern Historian} 30 (2009): 103--5.
 
-``Grand Army of the Republic'' and ``Theodore Roosevelt'' in \emph{The
-Encyclopedia of the Veteran in America}, ed. William A. Pencak (Santa
-Barbara, CA: ABC-CLIO, 2009).
+  \subsection{encyclopedia articles}
 
-``Draft'' in \emph{The Political Lincoln: An Encyclopedia}, ed. Paul
-Finkelman and Martin Hershock (Washington, DC: CQ Press, 2008).
+  Contributions to \emph{The Encyclopedia of American Reform Movements}; 
+  \emph{The Encyclopedia of the Early Republic and Antebellum America};
+  \emph{The Encyclopedia of American Immigration}; \emph{The Encyclopedia of 
+    U.S. Political History}; \emph{The Encyclopedia of the Veteran in 
+    America}; \emph{The Political Lincoln: An Encyclopedia}.
 
-\section{Conference Papers, Talks \& Workshops}
+  % ``Conversion'' and ``Sarah Osborne,'' in \emph{A Jonathan Edwards 
+  % Encyclopedia}, ed. Harry S. Stout, Kenneth Minkema, and Adriaan Neele (William 
+  % B. Eerdmans, forthcoming).
 
-``Data Analysis for Humanists,'' workshop scheduled for THATCamp American 
-Academy of Religion, Baltimore, November 22, 2013.
+  % ``James G. Birney Runs for President (1840 \& 1844)'' in \emph{The
+  % Encyclopedia of American Reform Movements}, ed. John R. McKivigan and
+  % Heather L. Kaufman (Facts on File, 2012).
 
-With Erin Bartram, ``How to Use a Database for Historical
-Research,'' workshop scheduled for THATCamp New England, University of 
-Connecticut at Storrs, October 18, 2013.
+  % ``Alexander Hamilton,'' ``Fugitive Slave Acts,'' ``Domestic Slave
+  % Trade,'' and ``New England'' in \emph{The Encyclopedia of the Early
+  % Republic and Antebellum America}, ed. Christopher Bates (Armonk, NY: M.
+  % E. Sharpe, 2010).
 
-``Returning to the Fold: Nineteenth Century Converts Who Returned to
-Their Original Faith,'' talk given at Kronstadt Moment/Road to
-Damascus, New School for Social Research, New York, April 26--27, 2013.
+  % ``New Harmony (1814--1830)'' in \emph{The Encyclopedia of American
+  % Immigration}, ed. Carl L. Bankston III (Pasadena, CA: Salem Press,
+  % 2010).
 
-``The American Converts Database and the Monographic Dissertation,''
-talk for the panel ``Digital Methods and the Traditional Dissertation,''
-given at Digital Humanities: The Next Generation, Simmons College,
-Boston, March 15, 2013.
+  % ``Salmon P. Chase'' in \emph{The Encyclopedia of U.S. Political History}
+  % (Washington, DC: CQ Press, 2009).
 
-``Catholic Converts in the Nineteenth-century Market of Souls,'' paper
-presented at the annual meeting of the American Catholic Historical
-Association, New Orleans, January 4, 2013.
+  % ``Grand Army of the Republic'' and ``Theodore Roosevelt'' in \emph{The
+  % Encyclopedia of the Veteran in America}, ed. William A. Pencak (Santa
+  % Barbara, CA: ABC-CLIO, 2009).
 
-``The Humanist's Operating System; or, Scholarship in Plain Text,''
-workshop presented at THATCamp New England 2012, Brown University,
-October 20, 2012.
+  % ``Draft'' in \emph{The Political Lincoln: An Encyclopedia}, ed. Paul
+  % Finkelman and Martin Hershock (Washington, DC: CQ Press, 2008).
 
-``Does the Soul Have a History?'' paper presented at the biennial
-meeting of the Conference on Faith and History, Gordon College, October
-5, 2012.
+  \section{Conference Papers, Talks \& Workshops}
 
-``\,`Six Days Shalt Thou Labor': Work, Sabbath Observance, and Cultural
-Conversion in John Eliot's Mission to the Indians,'' paper presented at
-the annual meeting of the American Society for Church History, Chicago,
-January 7, 2012.
+  ``Converts and the Category of Irreligion in the Nineteenth-Century United 
+  States,'' paper scheduled for the annual meeting of the Organization of 
+  American Historians, St. Louis, April 16--19, 2015.
 
-``The Vocabulary of Conversion: Text-Mining the East Windsor Conversion
-Relations,'' paper presented at the annual meeting of the American
-Society for Church History, Boston, January 9, 2011.
+  ``Mapping Boston's Religions from the Revolution to 1880,'' paper scheduled 
+  for the panel ``Mapping Religious Space: Four American Cities from the 
+  Colonial Era to the Twentieth Century''
+  at the annual meeting of the American Society of Church History, New York, 
+  January 2--5, 2015.
 
-``\,`Call to Remembrance the Former Days': The Use of History in New
-England Occasional Sermons, 1660--1684,'' paper presented at the
-Christianity and American History conference, Liberty University, April
-2007.
+  ``Teaching Graduate Students to Code,'' poster session scheduled for the 
+  annual meeting of the American Historical Association, New York, January 
+  2--5, 2015.
 
-``The Interrelationship of Reason, Faith, and Revelation in St. Thomas
-Aquinas,'' paper presented at the annual meeting of the South Carolina
-Historical Association, March 2006.
+  ``Data Analysis for Humanists,'' workshop given at THATCamp American 
+  Historical Association, Washington, DC, January 5, 2014.
 
-\section{Regular Contributor}
+  ``Data Analysis for Humanists,'' workshop given at THATCamp American 
+  Academy of Religion, Baltimore, November 22, 2013.
 
-Regular contributor to the \emph{Religion in American History} blog. 
-\href{http://usreligion.blogspot.com}{http://usreligion.blogspot.com}
+  With Erin Bartram, ``How to Use a Database for Historical
+  Research,'' workshop given at THATCamp New England, University of 
+  Connecticut at Storrs, October 18, 2013.
 
-Regular contributor to \emph{ProfHacker}, a \emph{Chronicle of Higher
-Education} blog.
-\url{http://chronicle.com/blogs/profhacker/author/lmullen}
+  ``Returning to the Fold: Nineteenth Century Converts Who Returned to
+  Their Original Faith,'' talk given at Kronstadt Moment/Road to
+  Damascus, New School for Social Research, New York, April 26--27, 2013.
 
-Blog on history, religion, and digital humanities.
-\url{http://lincolnmullen.com}
+  ``The American Converts Database and the Monographic Dissertation,''
+  talk for the panel ``Digital Methods and the Traditional Dissertation,''
+  given at Digital Humanities: The Next Generation, Simmons College,
+  Boston, March 15, 2013.
 
-\section{Digital Projects}
+  ``Catholic Converts in the Nineteenth-century Market of Souls,'' paper
+  presented at the annual meeting of the American Catholic Historical
+  Association, New Orleans, January 4, 2013.
 
-Principal investigator with Erin Bartram, ``The American Converts 
-Database,'' a database of converts and conversions in American history, 
-\href{http://americanconverts.org}{http://americanconverts.org}.
+  ``The Humanist's Operating System; or, Scholarship in Plain Text,''
+  workshop presented at THATCamp New England 2012, Brown University,
+  October 20, 2012.
 
-``Historical Demographics of American Religion,'' exploratory data sets and 
-analysis of religious demographics in the United States,  
-\href{https://github.com/lmullen/demographics-religion}{https://github.com/lmullen/demographics-religion}.
+  ``Does the Soul Have a History?'' paper presented at the biennial
+  meeting of the Conference on Faith and History, Gordon College, October
+  5, 2012.
 
-Open-source contributions to scholarly software available at 
-\href{http://github.com/lmullen}{http://github.com/lmullen}.
+  ``\,`Six Days Shalt Thou Labor': Work, Sabbath Observance, and Cultural
+  Conversion in John Eliot's Mission to the Indians,'' paper presented at
+  the annual meeting of the American Society of Church History, Chicago,
+  January 7, 2012.
 
-\section{Grants \& Awards}
+  ``The Vocabulary of Conversion: Text-Mining the East Windsor Conversion
+  Relations,'' paper presented at the annual meeting of the American
+  Society of Church History, Boston, January 9, 2011.
 
-\subsection{research}
+  ``\,`Call to Remembrance the Former Days': The Use of History in New
+  England Occasional Sermons, 1660--1684,'' paper presented at the
+  Christianity and American History conference, Liberty University, April
+  2007.
 
-Mellon Dissertation Year Fellowship, 2014--2015 (declined)
+  ``The Interrelationship of Reason, Faith, and Revelation in St. Thomas
+  Aquinas,'' paper presented at the annual meeting of the South Carolina
+  Historical Association, March 2006.
 
-Kate B. and Hall J. Peterson Fellowship, American Antiquarian Society, 2013
+  \section{Regular Contributor}
 
-Ruth B. Fein Prize, American Jewish Historical Society, 2012
+  Occasional contributor to \emph{Smithsonian.com} (2014--present)\\
+  \url{http://www.smithsonianmag.com/author/lincoln-mullen/}
 
-Mellon Dissertation Research Grant, Brandeis University, 2012
+  Regular contributor to the \emph{Religion in American History} blog 
+  (2012--present)\\
+  \url{http://usreligion.blogspot.com}
 
-Grant to attend ``Congregations and Social Change'' seminar, Calvin 
-College, 2011
+  Former contributor to \emph{ProfHacker}, a \emph{Chronicle of Higher
+    Education} blog (2010--2014)\\
+  \url{http://chronicle.com/blogs/profhacker/author/lmullen}
 
-Irving and Rose Crown Fellowship, Brandeis University, 2009--2014
+  Blog on history, religion, and digital humanities\\
+  \url{http://lincolnmullen.com}
 
-\subsection{teaching}
+  \section{Digital Projects}
 
-University Prize Instructorship, Brandeis University, 2013
+  Principal investigator with Erin Bartram, \emph{The American Converts 
+    Database}, a database of converts and conversions in American history, 
+  \url{http://americanconverts.org}.
 
-Outstanding Teaching Assistant, Brandeis University, Graduate School of 
-Arts and Sciences, 2012
+  ``Historical Demographics of American Religion,'' exploratory data sets and 
+  analysis of religious demographics in the United States,  
+  \url{https://github.com/lmullen/demographics-religion}.
 
-\subsection{fund raising}
+  Historical maps and visualizations available at 
+  \url{http://lincolnmullen.com}.
 
-Raised \$15,500 for THATCamp New England from NERCOMP, Brandeis 
-University, Brown University, and other donors, 2011
+  Open-source contributions to scholarly software available at 
+  \url{http://github.com/lmullen}.
 
-\section{Teaching}
+  \section{Grants \& Awards}
 
-\subsection{instructor, brandeis university}
+  \subsection{research}
 
-Nineteenth-Century American Religion: A Digital History Seminar, 
-scheduled spring 2014
+  Mellon Dissertation Year Fellowship (2014--2015, declined)
 
-Religious Pluralism and the American State, fall 2012
+  Kate B. and Hall J. Peterson Fellowship, American Antiquarian Society (2013)
 
-\subsection{teaching fellow, brandeis university}
+  Ruth B. Fein Prize, American Jewish Historical Society (2012)
 
-The American Revolution (David Hackett Fischer), fall 2013
+  Mellon Dissertation Research Grant, Brandeis University (2012)
 
-The Radical 1950s (David Engerman), spring 2012
+  Grant to attend ``Congregations and Social Change'' seminar, Calvin 
+  College (2011)
 
-World War II (David Hackett Fischer), fall 2011
+  Irving and Rose Crown Fellowship, Brandeis University (2009--2014)
 
-East Asian Civilizations (Xing Hang), fall 2011
+  \subsection{teaching}
 
-State and Society in Early Modern Europe, 1500--1700
-(Govind Sreenivasan), spring 2011
+  University Prize Instructorship, Brandeis University (2013)
 
-The American Revolution (David Hackett Fischer), fall 2010
+  Outstanding Teaching Assistant, Brandeis University, Graduate School of 
+  Arts and Sciences (2012)
 
-\section{Service}
+  \subsection{fund raising}
 
-Web editor, \emph{Journal of Southern Religion}, 2011--
+  Raised \$15,500 for THATCamp New England (2011)
 
-Co-convener, Religion Working Group, Brandeis University, 
-2012--13
+  \section{Teaching}
 
-Co-organizer, THATCamp New England 2012, held at Brown University,
-October 19--20, 2012
+  \subsection{george mason university}
 
-Lead organizer, THATCamp New England 2011, held at Brandeis University, 
-October 21--22, 2011
+  Programming in History/New Media (fall 2014)
 
-Teaching with Technology Committee, Brandeis University, 2010--2012
+  Church and State in America (fall 2014)
 
-Co-organizer, THATCamp New England 2010, held at Wentworth Institute of 
-Technology, November 13--14, 2010
+  \subsection{brandeis university}
 
-List editor, H-GRAD, 2009--2011
+  Nineteenth-Century American Religion: A Digital History Seminar (spring 
+  2014)
 
-% \section{Seminars \& Workshops}
+  Religious Pluralism and the American State (fall 2012)
 
-% Public history seminar, directed by Martha A. Sandweiss and 
-% Anthony Grafton, Princeton University, May 21--25, 2012.
+  % \subsection{teaching fellow, brandeis university}
 
-% ``Congregations and Social Change: Adaptation and Innovation among 
-% Religious Communities,'' directed by Gerardo Marti, Calvin College, June 
-% 27--July 22, 2011.
+  % The American Revolution (David Hackett Fischer), fall 2013
 
-\section{Languages and Digital Humanities Skills}
+  % The Radical 1950s (David Engerman), spring 2012
 
-Advanced reading knowledge of ancient (Koine) Greek
+  % World War II (David Hackett Fischer), fall 2011
 
-Data analysis: R (statistical programming language), QGIS (mapping)
+  % East Asian Civilizations (Xing Hang), fall 2011
 
-Programming languages: Ruby, PHP
+  % State and Society in Early Modern Europe, 1500--1700
+  % (Govind Sreenivasan), spring 2011
 
-Other technologies: Omeka, Jekll, \LaTeX{}, \mbox{WordPress}, shell scripting, 
-Git, HTML, CSS
+  % The American Revolution (David Hackett Fischer), fall 2010
 
-\section{Professional Memberships}
+  \section{Service}
 
-American Academy of Religion
+  Web editor, \emph{Journal of Southern Religion} (2011--present)
 
-American Catholic Historical Association
+  Co-convener, Religion Working Group, Brandeis University (2012--13)
 
-American Historical Association
+  Co-organizer, THATCamp New England 2012, held at Brown University,
+  October 19--20, 2012
 
-American Society of Church History
+  Lead organizer, THATCamp New England 2011, held at Brandeis University, 
+  October 21--22, 2011
 
-Conference on Faith and History
+  Teaching with Technology Committee, Brandeis University (2010--2012)
 
-\section{References}
+  Co-organizer, THATCamp New England 2010, held at Wentworth Institute of 
+  Technology, November 13--14, 2010
 
-Professor Jonathan D. Sarna, Brandeis University,
-\href{mailto:sarna@brandeis.edu}{sarna@brandeis.edu}
+  List editor, H-GRAD (2009--2011)
 
-Professor Jane Kamensky, Brandeis University, 
-\href{mailto:kamensky@brandeis.edu}{kamensky@brandeis.edu}
+  % \section{Seminars \& Workshops}
 
-Professor David Hackett Fischer, Brandeis University, 
-\href{mailto:fischer@brandeis.edu}{fischer@brandeis.edu}
+  % Public history seminar, directed by Martha A. Sandweiss and 
+  % Anthony Grafton, Princeton University, May 21--25, 2012.
 
-Professor Sharon M. Leon, George Mason University,
-\href{mailto:sleon@gmu.edu}{sleon@gmu.edu}
+  % ``Congregations and Social Change: Adaptation and Innovation among 
+  % Religious Communities,'' directed by Gerardo Marti, Calvin College, June 
+  % 27--July 22, 2011.
 
-Vice-Provost John M. Unsworth, Brandeis University, 
-\href{mailto:unsworth@brandeis.edu}{unsworth@brandeis.edu}
+  \section{Languages and Digital Humanities Skills}
 
-%\vspace{1cm}
-\vfill{}
-%\hrulefill
+  Advanced reading knowledge of ancient (Koine) Greek
 
-\begin{center}
-  {\scriptsize 
-    Last updated: \today\\[.25cm]
-    Full text of publications:\\
-    \href{http://lincolnmullen.com/}{http://lincolnmullen.com/}\\[.1cm]
-  }
-\end{center}
+  Data analysis: R (programming language), D3.js (visualizations), QGIS 
+  (mapping)
+
+  Programming languages: R, Ruby, JavaScript, PHP
+
+  Other technologies: Omeka, Jekyll, \LaTeX{}, \mbox{WordPress}, shell scripting, 
+  Git, HTML, CSS
+
+  \section{Professional Memberships}
+
+  American Academy of Religion
+
+  American Catholic Historical Association
+
+  American Historical Association
+
+  American Society of Church History
+
+  Conference on Faith and History
+
+  % \section{References}
+
+  % Professor Jonathan D. Sarna, Brandeis University,
+  % \href{mailto:sarna@brandeis.edu}{sarna@brandeis.edu}
+
+  % Professor Jane Kamensky, Brandeis University, 
+  % \href{mailto:kamensky@brandeis.edu}{kamensky@brandeis.edu}
+
+  % Professor David Hackett Fischer, Brandeis University, 
+  % \href{mailto:fischer@brandeis.edu}{fischer@brandeis.edu}
+
+  % Professor Sharon M. Leon, George Mason University,
+  % \href{mailto:sleon@gmu.edu}{sleon@gmu.edu}
+
+  % Vice-Provost John M. Unsworth, Brandeis University, 
+  % \href{mailto:unsworth@brandeis.edu}{unsworth@brandeis.edu}
 
 \end{document}
