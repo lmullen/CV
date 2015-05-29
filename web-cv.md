@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Lincoln A. Mullen — CV'
+title: 'Lincoln A. Mullen --- CV'
 ...
 
 ## Appointment
@@ -16,6 +16,8 @@ MA history, Brandeis University (2011)
 BA and MA history, Bob Jones University (2006/2008)
 
 ## Manuscripts and other projects in progress
+
+Cameron Blevins and Lincoln Mullen, "Jane, John ... Leslie? A Historical Method for Algorithmic Gender Prediction," *Digital Humanities Quarterly*, accepted for publication.
 
 *[The Varieties of Religious Conversion: The Origins of Religious Choice in the United States](/research/#varieties)*. Manuscript in progress being revised from my [dissertation](/research/#dissertation).
 
