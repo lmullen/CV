@@ -1,9 +1,5 @@
-Mullen-cv.pdf : Mullen-cv.tex web-cv.tex
-	latexmk Mullen-cv.tex
-	latexmk -c
-
-web-cv.tex : web-cv.md
-	pandoc $^ -o $@
+Mullen-cv.pdf : Mullen-cv.tex
+	latexmk $<
 
 clean :
 	latexmk -c
