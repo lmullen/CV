@@ -1,0 +1,211 @@
+% Curriculum vitae
+
+% Lincoln A. Mullen | lincoln@lincolnmullen.com | http://lincolnmullen.com
+
+\documentclass[10pt]{article}
+\usepackage{microtype}
+\frenchspacing
+\usepackage[letterpaper,margin=1in]{geometry} 
+\setlength\parindent{0in}
+\setlength\parskip{6pt}
+\setlength{\emergencystretch}{3em}
+% \def\ind{\hangindent=1 true cm\hangafter=1 \noindent}
+\usepackage[osf,sc]{mathpazo}
+\usepackage{inconsolata}
+\usepackage{fancyhdr}
+\pagestyle{plain}
+\frenchspacing
+% \usepackage{multicol}
+% \usepackage{graphicx}
+% \usepackage[usenames,dvipsnames]{color}
+
+% % ---- MARGIN YEARS
+% \usepackage{marginnote}
+% \newcommand{\years}[1]{\marginnote{#1}[4pt]}
+% \renewcommand{\raggedleftmarginnote}{}
+% \setlength{\marginparsep}{2pt}
+% \reversemarginpar
+
+% HEADINGS
+\usepackage{sectsty} 
+\usepackage{titlesec}
+\usepackage[normalem]{ulem} 
+\sectionfont{\rmfamily\mdseries\Large} 
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize} 
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize} 
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+% disables chapter, section and subsection numbering
+\setcounter{secnumdepth}{-1} 
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% PDF SETUP
+\PassOptionsToPackage{hyphens}{url}\usepackage[hidelinks, breaklinks, pdftex, pdftitle={Lincoln A.  Mullen - CV}, pdfauthor={Lincoln A. Mullen}]{hyperref}  
+
+% DOCUMENT
+\begin{document}
+\thispagestyle{fancy}
+\fancyfoot{}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+%%% The next line will put the date revised in footer of first page
+\rfoot{\scriptsize Current as of \today}
+
+\hfill\hfill\hfill
+\hfill\hfill\hfill
+\hfill\hfill\hfill
+\hfill\hfill\hfill
+\begin{minipage}[t]{1.4in}
+  \flushleft{\scriptsize  \texttt{\href{mailto:lincoln@lincolnmullen.com}{lincoln@lincolnmullen.com}}} \\
+  \vspace{-0.065in}{\scriptsize  \url{http://lincolnmullen.com}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{1.9in}
+  \flushleft{{\scriptsize {Department of History \& Art History} \\ George 
+      Mason University \\ 4400 University Drive, MSN 3G1 \\ \vspace{-0.05in} 
+      Fairfax, VA 22030}}
+\end{minipage}
+
+\vspace{0.1in}
+
+{\Large Lincoln A. Mullen}\\[-0.1in]
+
+\subsection{appointment}\label{appointment}
+
+Assistant professor, \href{http://historyarthistory.gmu.edu/}{Department of 
+  History and Art History}, George Mason University (2014--present)
+
+\subsection{education}\label{education}
+
+PhD history, Brandeis University (2014)
+
+MA history, Brandeis University (2011)
+
+BA \& MA history, Bob Jones University (2006/2008)
+
+\subsection{manuscripts in 
+  progress}\label{manuscripts-and-other-projects-in-progress}
+
+\emph{\href{/research/\#varieties}{The Varieties of Religious
+    Conversion: The Origins of Religious Choice in the United States}} (book 
+manuscript)
+
+\emph{\href{http://dh-r.lincolnmullen.com/}{Digital History Methods in
+    R}} (book manuscript): \url{http://lincolnmullen.com/projects/dh-r/}
+
+Kellen Funk and Lincoln Mullen, ``The Migration of the Field Code'' (journal 
+article)
+
+\subsection{peer reviewed academic publications}\label{peer-reviewed}
+
+``A Braided Narrative for Digital History,'' in \emph{Debates in the Digital 
+  Humanities 2017}, ed. Matthew K. Gold and Lauren F. Klein (University of 
+Minnesota Press, forthcoming 2017).
+
+Cameron Blevins and Lincoln Mullen, ``Jane, John \ldots{} Leslie? A
+Historical Method for Algorithmic Gender Prediction,'' \emph{Digital
+  Humanities Quarterly} 9, no. 3 (2015): 
+\url{http://www.digitalhumanities.org/dhq/vol/9/3/000223/000223.html}.
+
+``The Contours of Conversion to Catholicism in the Nineteenth Century,''
+\emph{U.S. Catholic Historian} 32, no. 2 (2014): 1--27. DOI:
+\href{http://dx.doi.org/10.1353/cht.2014.0007}{10.1353/cht.2014.0007}
+
+``Using Metadata and Maps to Teach the History of Religion,''
+\emph{Transformations: The Journal of Inclusive Scholarship and
+  Pedagogy}, 24, no. 3 (2014): 34--40.
+
+``Confessionalization and the Creedal Tradition,'' \emph{The Proceedings
+  of the South Carolina Historical Association} (March 2010): 79--90.
+
+\subsection{other academic publications}\label{other-academic}
+
+``Digital Humanities Is a Spectrum; or, We're All Digital Humanists
+Now,'' in Melissa Terras, Edward Vanhoutte, and Julianne Nyhan, eds.,
+\emph{Defining Digital Humanities: A Reader} (Ashgate, 2013).
+
+``A Narrative of the Troubles in the Second Church in Windsor,
+1735--1741,'' by Roger Wolcott, \emph{Journal of Jonathan Edwards
+  Studies} 2, no. 2 (2012): 83--142.
+
+\subsection{selected academic software}\label{academic-software}
+
+``textreuse: Detect Text Reuse and Document Similarity.'' R package. 2015--. 
+\url{https://github.com/ropensci/textreuse}
+
+``gender: Predict Gender from Names Using Historical Data.'' R package. 
+2014--. \url{https://github.com/ropensci/gender}
+
+``internetarchive: An R client to the Internet Archive API.'' R package.  
+2015--. \url{https://github.com/ropensci/internetarchive}
+
+``USAboundaries: Historical and Contemporary Boundaries of the United States 
+of America.'' R package.  2015--.  
+\url{https://github.com/ropensci/USAboundaries}
+
+``historydata: Datasets for Historians.'' R package. 2014--.  
+\url{https://github.com/ropensci/historydata}
+
+``omekaR: An Omeka API client.'' R package. 2014--. 
+\url{https://github.com/ropensci/historydata}
+
+\subsection{selected digital projects and visualizations}\label{digital-projects}
+
+``Divergence in U.S. Sex Ratios by County, 1820--2010.'' \url{http://lincolnmullen.com/projects/sex-ratios/}
+
+``The Spread of U.S.  Slavery, 1790--1860. 
+\url{http://lincolnmullen.com/projects/slavery/}
+
+``Historical Boundaries of the United States, 1783--1912.'' \url{http://lincolnmullen.com/projects/us-boundaries/}
+
+``Paulists Missions, 1851--1906.'' \url{http://lincolnmullen.com/projects/paulists-map/}
+
+Erin M. Bartram and Lincoln Mullen, \emph{The American Converts Database} 
+(2013--15). \url{http://americanconverts.org}
+
+``Analyzing Historical History Dissertations.'' \url{http://lincolnmullen.com/research/history-dissertations/}
+
+\subsection{general audience publications}\label{selected-online-essays}
+
+``Catholics Who Aren't Catholic,'' \emph{The Atlantic} (website), September 8, 
+2015.
+
+``These Maps Reveal How Slavery Expanded Across the United States,''
+\emph{Smithsonian.com}, May 15, 2014. Republished as an Editors' Choice,
+\emph{Digital Humanities Now}.
+
+\subsection{selected workshops}\label{workshops}
+
+Jason Heppler and Lincoln Mullen, ``R, Interactive Graphics, and Data 
+Visualization for the Humanities,'' Digital Humanities Summer Institute, University of Victoria, June 6--10, 2016.  
+
+Data visualization workshop, University of Helsinki, Finland, December 16--18, 
+2015. \url{http://lincolnmullen.com/projects/helsinki-workshop/}
+
+``Introduction to Spatial History and Mapping,'' Getty Summer Institute on 
+Digital Art History, George Mason University, Fairfax, VA, July 21, 2015.
+
+Spatial humanities workshop, Concordia College, Moorhead, MN, June 1--5, 2015.  
+\url{http://lincolnmullen.com/projects/spatial-workshop/}
+
+\subsection{teaching}\label{teaching}
+
+\begin{itemize}
+    \tightlist
+  \item Data and Visualization in Digital History (spring 2016)
+  \item Religion and Capitalism in the US (spring 2015) 
+  \item The Digital Past (spring 2015)
+  \item Programming in History/New Media (fall 2014) 
+  \item Church and State in America (fall 2014)
+  \item
+    Mapping Boston's Religions: A Digital History Seminar (spring 2014)
+  \item
+    Religious Pluralism and the American State (fall 2012)
+\end{itemize}
+
+
+\end{document}
+
