@@ -1,10 +1,10 @@
 all : Mullen-cv.pdf Mullen-cv.two-page.pdf
 
 Mullen-cv.pdf : Mullen-cv.tex
-	latexmk $<
+	latexmk -pdf $<
 
 Mullen-cv.two-page.pdf : Mullen-cv.two-page.tex
-	latexmk $<
+	latexmk -pdf $<
 
 clean :
 	latexmk -c
