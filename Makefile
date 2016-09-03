@@ -14,7 +14,7 @@ clean :
 	rm -f Mullen-cv.pdf
 	rm -f Mullen-cv.two-page.pdf
 
-deploy :
+deploy : Mullen-cv.pdf
 	scp Mullen-cv.pdf reclaim:~/public_html/lincolnmullen.com/files/
 
 .PHONY : clean deploy copy
