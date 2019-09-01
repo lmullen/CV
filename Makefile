@@ -1,9 +1,11 @@
-all : Mullen-cv.pdf 
+all : Mullen-cv.pdf Mullen-cv-two-page.pdf
 
 Mullen-cv.pdf : Mullen-cv.tex
 	latexmk -pdf $<
+	latexmk -c
 
-clean :
+Mullen-cv-two-page.pdf : Mullen-cv-two-page.tex
+	latexmk -pdf $<
 	latexmk -c
 
 deploy : Mullen-cv.pdf
