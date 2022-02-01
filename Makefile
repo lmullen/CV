@@ -1,4 +1,4 @@
-all : Mullen-cv.pdf Mullen-cv-two-page.pdf Mullen-cv-one-page.pdf
+default : Mullen-cv.pdf 
 
 Mullen-cv.pdf : Mullen-cv.tex
 	latexmk -pdf $<
