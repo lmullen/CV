@@ -13,6 +13,6 @@ Mullen-cv-one-page.pdf : Mullen-cv-one-page.tex
 	latexmk -c
 
 deploy : Mullen-cv.pdf
-	scp Mullen-cv.pdf reclaim:~/public_html/lincolnmullen.com/files/
+	scp Mullen-cv.pdf reclaim:~/files.lincolnmullen.com/
 
 .PHONY : clean deploy copy
