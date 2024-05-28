@@ -1,6 +1,6 @@
 % Curriculum vitae
 
-% Lincoln A. Mullen | lincoln@lincolnmullen.com | http://lincolnmullen.com
+% Lincoln A. Mullen | lincoln@lincolnmullen.com | https://lincolnmullen.com
 
 \documentclass[11pt]{article}
 \usepackage{microtype}
@@ -10,11 +10,13 @@
 \setlength\parskip{6pt}
 \setlength{\emergencystretch}{3em}
 % \def\ind{\hangindent=1 true cm\hangafter=1 \noindent}
-\usepackage[osf,sc]{mathpazo}
-\usepackage{inconsolata}
+
+\usepackage[]{plex-serif}
+\usepackage[mb]{plex-sans}
+\usepackage[scale=0.95]{plex-mono}
+
 \usepackage{fancyhdr}
 \pagestyle{plain}
-\frenchspacing
 % \usepackage{multicol}
 % \usepackage{graphicx}
 % \usepackage[usenames,dvipsnames]{color}
@@ -30,9 +32,9 @@
 \usepackage{sectsty} 
 \usepackage{titlesec}
 \usepackage[normalem]{ulem} 
-\sectionfont{\rmfamily\mdseries\Large} 
-\subsectionfont{\rmfamily\mdseries\scshape\normalsize} 
-\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize} 
+\sectionfont{\sffamily\bfseries\Large} 
+\subsectionfont{\sffamily\bfseries\scshape\normalsize} 
+\subsubsectionfont{\sffamily\bfseries\upshape\normalsize} 
 \titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
 \titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
 \titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
@@ -52,42 +54,43 @@
 \fancyhead{}
 \renewcommand{\headrulewidth}{0pt}
 %%% The next line will put the date revised in footer of first page
+\rfoot{\scriptsize Current as of \today}
 
 \hfill\hfill\hfill
 \hfill\hfill\hfill
 \hfill\hfill\hfill
 \hfill\hfill\hfill
-\begin{minipage}[t]{1.6in}
+\begin{minipage}[t]{2.2in}
   \flushleft{\scriptsize  \texttt{\href{mailto:lincoln@lincolnmullen.com}{lincoln@lincolnmullen.com}}} \\
   \vspace{-0.065in}{\scriptsize  \url{https://lincolnmullen.com}} \\
   \vspace{-0.065in}{\scriptsize  ORCID: 
   \href{https://orcid.org/0000-0001-5103-6917}{\texttt{0000-0001-5103-6917}}}
 \end{minipage}
 \hfill
-\begin{minipage}[t]{1.9in}
-  \flushleft{{\scriptsize {Department of History \& Art History} \\ George 
-      Mason University \\ 4400 University Drive, MSN 3G1 \\ \vspace{-0.05in} 
-      Fairfax, VA 22030}}
+\begin{minipage}[t]{3.0in}
+  \flushleft{{\scriptsize {Roy Rosenzweig Center for History and New Media \\ Department of History and Art History \\ \vspace{-0.065in} George Mason University, Fairfax, Virginia}}}
 \end{minipage}
 
-\vspace{0.1in}
+\vspace{0.4in}
 
-{\Large Lincoln A. Mullen}\\[-0.1in]
-
-\subsection{appointments}\label{Appointments}
+{\Large\sffamily\bfseries Lincoln A. Mullen}\\[-0.1in]
 
 
-Associate professor, Dept. of History \& Art History, George Mason University (2019--; assistant professor, 2014--2019).
+\subsection{Current appointments}\label{Appointments}
 
-Director of computational history, Roy Rosenzweig Center for History and New Media (2018--).
+Executive director, Roy Rosenzweig Center for History and New Media.
 
-\subsection{education}\label{education}
+Professor, Department of History \& Art History, George Mason University.
 
-PhD history, Brandeis University (2014). 
+\subsection{Education}\label{education}
 
-\subsection{books \& selected digital projects}\label{books}
+PhD in history, Brandeis University (2014). 
 
-\emph{America's Public Bible: Biblical Quotations in U.S. Newspapers} (Stanford University Press, forthcoming 2023): \url{https://americaspublicbible.org}.
+\subsection{Books \& selected digital projects}\label{books}
+
+John Turner, Lincoln Mullen, et al., \emph{Antisemitism, U.S.A.: A History Podcast} (2024): \url{https://www.r2studios.org/show/Antisemitism-USA/}.
+
+\emph{America's Public Bible: Biblical Quotations in U.S. Newspapers} (Stanford University Press, 2023): \url{https://americaspublicbible.org}.
 
 \emph{American Religious Ecologies}, Roy Rosenzweig Center for History and New Media (in progress, 2018--): \url{https://religiousecologies.org}. (project director with John Turner)
 
@@ -99,7 +102,7 @@ PhD history, Brandeis University (2014).
 
 \emph{The Chance of Salvation: A History of Conversion in America} (Harvard University Press, 2017).
 
-\subsection{selected peer-reviewed journal articles \& book chapters}\label{peer-reviewed}
+\subsection{Selected peer-reviewed journal articles \& book chapters}\label{peer-reviewed}
 
 Stephen Robertson and Lincoln A. Mullen, ``Arguing with Digital History: Patterns of Historical Interpretation,'' \emph{Journal of Social History} 54, no. 4 (2021): 1005--1022, \url{https://doi.org/10.1093/jsh/shab015}.
 
@@ -111,9 +114,13 @@ Kellen Funk and Lincoln A. Mullen, ``The Spine of American Law: Digital Text Ana
 
 Cameron Blevins and Lincoln A. Mullen, ``Jane, John \ldots{} Leslie? A Historical Method for Algorithmic Gender Prediction,'' \emph{Digital Humanities Quarterly} 9, no. 3 (2015): \url{http://www.digitalhumanities.org/dhq/vol/9/3/000223/000223.html}. 
 
-``The Contours of Conversion to Catholicism in the Nineteenth Century,'' \emph{U.S. Catholic Historian} 32, no. 2 (2014): 1--27, \url{https://doi.org/10.1353/cht.2014.0007}. 
+% ``The Contours of Conversion to Catholicism in the Nineteenth Century,'' \emph{U.S. Catholic Historian} 32, no. 2 (2014): 1--27, \url{https://doi.org/10.1353/cht.2014.0007}. 
 
-\subsection{selected external grants \& fellowships}\label{grants-and-fellowships}
+\subsection{Selected external grants \& fellowships}\label{grants-and-fellowships}
+
+Lincoln A. Mullen and John G. Turner, ``Mapping American Religious Ecologies,'' Humanities Collections and Reference Resources grant from the National Endowment for the Humanities (2023--2026): \$350,000.
+
+John G. Turner, Lincoln A. Mullen, and Jeanette Patrick, ``The History of American Antisemitism: A Podcast,'' Henry Luce Foundation (2022--): \$50,000.
 
 Lincoln A. Mullen and John Turner, ``The Denig Bible Project,'' Winterthur Museum, Garden, and Library (2022--): \$80,500.
 
@@ -123,7 +130,7 @@ Lincoln A. Mullen, ``America's Public Bible: Machine-Learning Detection of Bibli
 
 Lincoln A. Mullen, John G. Turner, Jessica Mack, and Zev Eleff, "Collecting Together: A Portal and Coordinated Collecting Effort for the American Jewish Community During COVID-19," Lippman Kanfer Foundation for Living Torah, Jim Joseph Foundation, Charles and Lynn Schusterman Family Foundation, and The Russell Berrie Foundation (2021--2023): \$107,000.
 
-Jessica Otis and Lincoln A. Mullen, ``DataScribe: Enabling Structured Data Transcription in the Omeka S Web Platform,'' Digital Humanities Advancement Grant from the National Endowment for the Humanities (2019--2022): \$324,733.
+% Jessica Otis and Lincoln A. Mullen, ``DataScribe: Enabling Structured Data Transcription in the Omeka S Web Platform,'' Digital Humanities Advancement Grant from the National Endowment for the Humanities (2019--2022): \$324,733.
 
 Lincoln A. Mullen and John G. Turner, ``Mapping American Religious Ecologies,'' Humanities Collections and Reference Resources grant from the National Endowment for the Humanities (2019--2022): \$349,944.
 
@@ -135,15 +142,17 @@ Sheila Brennan and Lincoln A. Mullen, ``Mapping Early American Elections,'' Huma
 
 Kate B. and Hall J. Peterson Fellowship, American Antiquarian Society (2013). 
 
-\subsection{selected prizes \& honors}\label{prizes-and-honors}
+\subsection{Selected prizes \& honors}\label{prizes-and-honors}
 
-Young Scholars in American Religion, Center for the Study of Religion and American Culture, IUPUI (2019--2020).
+Presidential award for research excellence, George Mason University (2024).
+
+% Young Scholars in American Religion, Center for the Study of Religion and American Culture, IUPUI (2019--2020).
 
 Best First Book in the History of Religions for \emph{The Chance of Salvation}, American Academy of Religion (2018).
 
 First prize in the Chronicling America Data Challenge for \emph{America's Public Bible}, National Endowment for the Humanities (2016).
 
-Ruth B. Fein Prize, American Jewish Historical Society (2012). 
+% Ruth B. Fein Prize, American Jewish Historical Society (2012). 
 
 % \subsection{selected courses}\label{teaching}
 
