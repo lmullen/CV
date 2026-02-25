@@ -8,11 +8,8 @@ Mullen-cv-two-page.pdf : Mullen-cv-two-page.tex
 	latexmk -pdf $<
 	latexmk -c
 
-# Mullen-cv-one-page.pdf : Mullen-cv-one-page.tex
-# 	latexmk -pdf $<
-# 	latexmk -c
-
-deploy : Mullen-cv.pdf
-	scp Mullen-cv.pdf reclaim:~/files.lincolnmullen.com/
+deploy : Mullen-cv.pdf Mullen-cv-two-page.pdf
+	npx wrangler r2 object put --remote files-dot-lincolnmullen-dot-com/cv/Mullen-cv.pdf --file Mullen-cv.pdf
+	npx wrangler r2 object put --remote files-dot-lincolnmullen-dot-com/cv/Mullen-cv-two-page.pdf --file Mullen-cv-two-page.pdf
 
 .PHONY : clean deploy copy
